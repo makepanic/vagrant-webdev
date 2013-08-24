@@ -2,8 +2,8 @@
 
 This is a simple [vagrant](http://www.vagrantup.com/) config that installs sass and jekyll. Once running it startes a tmux session that shows the output of sass and jekyll.
 
-Sass watches for changes in the `sass/` directory.
-Jekyll watches for changes in the `jekyll/` directory.
+- Sass watches for changes in the `sass/` directory.
+- Jekyll watches for changes in the `jekyll/` directory.
 
 ##Requirements
 

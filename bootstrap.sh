@@ -3,7 +3,7 @@
 # update ubuntu package repo
 apt-get update > /dev/null
 
-# install ruby and make (say yes to all)
+# install ruby, htop, vim, tmux and make (say yes to all)
 apt-get -y install htop vim tmux ruby1.9.1-dev make
 
 # append cfg to bashrc
@@ -23,6 +23,6 @@ mkdir /home/vagrant/teamocil
 # teamocil path
 export TEAMOCIL_PATH=/vagrant/.config/teamocil
 
-# create tmux session with sass and jekyll 
+# create tmux session with teamocil webdev config
 su -c "tmux new-session -d 'teamocil webdev' \;" -s /bin/sh vagrant
 

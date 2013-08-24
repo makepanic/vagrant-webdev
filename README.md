@@ -5,12 +5,18 @@ This is a simple [vagrant](http://www.vagrantup.com/) config that installs sass 
 Sass watches for changes in the `sass/` directory.
 Jekyll watches for changes in the `jekyll/` directory.
 
-##Installation
+##Requirements
 
-1. `vagrant init precise32 http://files.vagrantup.com/precise32.box` - download the precise32 box.
-2. `vagrant up` - start vagrant with the given Vagrantfile.
-3. wait until its done.
-4. __optional__ `vagrant ssh` - ssh into the running vm to attach to tmux.
+This vagrant config uses the `precise32` box from [http://files.vagrantup.com/precise32.box](http://files.vagrantup.com/precise32.box).
+If you don't have the box one installed run:
+
+    vagrant box add precise32 http://files.vagrantup.com/precise32.box
+
+##Running the config
+
+1. `vagrant up` - start vagrant with the given Vagrantfile.
+2. wait until its done.
+3. __optional__ `vagrant ssh` - ssh into the running vm to attach to tmux.
 
 
 ##License
